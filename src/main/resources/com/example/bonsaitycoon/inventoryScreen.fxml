@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="398.0" prefWidth="539.0" style="-fx-background-color: teal; -fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InventoryScreen">
+   <children>
+      <Pane layoutX="51.0" layoutY="81.0" prefHeight="245.0" prefWidth="439.0" style="-fx-border-color: black; -fx-padding: 10; -fx-border-radius: 0; -fx-background-color: skyblue; -fx-border-width: 3;">
+         <children>
+            <TableView layoutX="26.0" layoutY="23.0" prefHeight="200.0" prefWidth="389.0" style="-fx-background-color: white;">
+              <columns>
+                <TableColumn prefWidth="186.0" text="Item Name" />
+                <TableColumn prefWidth="79.0" text="Quantity" />
+                  <TableColumn prefWidth="123.0" text="Sell Value" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="143.0" layoutY="20.0" prefHeight="17.0" prefWidth="262.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: skyblue;" text="Player's Inventory" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="51.0" layoutY="349.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Use Item" textAlignment="CENTER" />
+      <Button layoutX="232.0" layoutY="349.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Delete Item" textAlignment="CENTER" />
+      <Button layoutX="438.0" layoutY="349.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Return" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="514.0" prefWidth="764.0" style="-fx-background-color: teal; -fx-border-width: 3; -fx-border-color: black;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bonsaitycoon.TreeScreen">
+   <children>
+      <Pane layoutX="24.0" layoutY="21.0" prefHeight="473.0" prefWidth="329.0" style="-fx-border-color: black; -fx-border-width: 5; -fx-background-color: skyblue;">
+         <children>
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="325.0" prefWidth="301.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="325.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true" />
+               </children></Pane>
+            <Pane layoutX="14.0" layoutY="345.0" prefHeight="34.0" prefWidth="301.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: beige;">
+               <children>
+                  <Label layoutX="14.0" layoutY="7.0" text="Name:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="7.0" text="Tree#1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane layoutX="14.0" layoutY="385.0" prefHeight="34.0" prefWidth="301.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: beige;">
+               <children>
+                  <Label layoutX="14.0" layoutY="7.0" text="Variety:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="81.0" layoutY="7.0" text="Caput draconis">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane layoutX="14.0" layoutY="425.0" prefHeight="34.0" prefWidth="301.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: beige;">
+               <children>
+                  <Label layoutX="14.0" layoutY="7.0" text="Maturity:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="81.0" layoutY="7.0" text="Seedling">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children></Pane>
+      <Pane layoutX="385.0" layoutY="21.0" prefHeight="134.0" prefWidth="358.0" style="-fx-border-color: black; -fx-border-width: 5; -fx-background-color: goldenrod;">
+         <children>
+            <ProgressBar layoutX="128.0" layoutY="12.0" prefHeight="25.0" prefWidth="216.0" progress="0.77" />
+            <Label layoutX="14.0" layoutY="15.0" text="Growth Progress: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="57.0" text="Year Obtained:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="100.0" text="Awards Won:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="258.0" layoutY="47.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="258.0" layoutY="87.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+            <Label layoutX="128.0" layoutY="57.0" text="1987">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Pane layoutX="131.0" layoutY="98.0" prefHeight="25.0" prefWidth="24.0" />
+            <Pane layoutX="224.0" layoutY="98.0" prefHeight="25.0" prefWidth="24.0" />
+            <Pane layoutX="320.0" layoutY="98.0" prefHeight="25.0" prefWidth="24.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="385.0" layoutY="175.0" prefHeight="264.0" prefWidth="358.0" style="-fx-border-color: black; -fx-border-width: 5; -fx-background-color: goldenrod;">
+         <children>
+            <ProgressBar layoutX="128.0" layoutY="24.0" prefHeight="25.0" prefWidth="216.0" progress="0.58" />
+            <ProgressBar layoutX="128.0" layoutY="71.0" prefHeight="25.0" prefWidth="216.0" progress="0.32" />
+            <ProgressBar layoutX="128.0" layoutY="120.0" prefHeight="25.0" prefWidth="216.0" progress="0.82" />
+            <ProgressBar layoutX="128.0" layoutY="170.0" prefHeight="25.0" prefWidth="216.0" progress="0.96" />
+            <ProgressBar layoutX="128.0" layoutY="219.0" prefHeight="25.0" prefWidth="216.0" progress="0.76" />
+            <Label layoutX="20.0" layoutY="27.0" text="Moisture Level:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="74.0" text="Sunlight Level:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="123.0" text="Nutrient Level:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="173.0" text="Warmth Level:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="222.0" text="Overall Health:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="257.0" layoutY="59.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="257.0" layoutY="108.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="257.0" layoutY="156.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="258.0" layoutY="206.0" startX="-257.0" strokeLineCap="BUTT" strokeWidth="3.0" />
+         </children>
+      </Pane>
+      <Button layoutX="385.0" layoutY="469.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Delete Tree" />
+      <Button layoutX="531.0" layoutY="470.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Inventory" />
+      <Button layoutX="691.0" layoutY="470.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Return" />
+   </children>
+</AnchorPane>

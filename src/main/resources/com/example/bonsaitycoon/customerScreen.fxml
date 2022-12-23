@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="487.0" prefWidth="700.0" style="-fx-background-color: teal; -fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerScreen">
+   <children>
+      <Pane layoutX="14.0" layoutY="308.0" prefHeight="165.0" prefWidth="672.0" style="-fx-background-color: skyblue; -fx-border-color: black; -fx-border-width: 3;">
+         <children>
+            <Pane layoutX="244.0" layoutY="14.0" prefHeight="135.0" prefWidth="185.0" style="-fx-background-color: lightgreen; -fx-border-color: black; -fx-border-width: 3;">
+               <children>
+                  <Button layoutX="48.0" layoutY="27.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 3;" text="Accept Offer" />
+                  <Button layoutX="46.0" layoutY="77.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Decline Offer" />
+               </children></Pane>
+            <ComboBox layoutX="20.0" layoutY="57.0" prefHeight="25.0" prefWidth="205.0" style="-fx-border-color: black; -fx-border-width: 2;" />
+            <Label layoutX="56.0" layoutY="26.0" text="Select a Tree to Sell:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="72.0" layoutY="99.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Clear Selection" />
+            <Button layoutX="501.0" layoutY="42.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Next Customer" />
+            <Button layoutX="523.0" layoutY="93.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-width: 3; -fx-border-radius: 5;" text="Return" />
+         </children></Pane>
+      <ImageView fitHeight="284.0" fitWidth="200.0" layoutX="156.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutX="363.0" layoutY="87.0" prefHeight="98.0" prefWidth="222.0" style="-fx-background-color: beige; -fx-border-color: black; -fx-border-width: 4;">
+         <children>
+            <Label alignment="CENTER" layoutX="12.0" layoutY="7.0" prefHeight="85.0" prefWidth="200.0" text="What kind of trees do you have for sale today, player?" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Inconsolata" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="374.0" layoutY="38.0" prefHeight="42.0" prefWidth="200.0" style="-fx-background-color: goldenrod; -fx-border-color: black; -fx-border-width: 4;">
+         <children>
+            <Label alignment="CENTER" layoutX="7.0" layoutY="7.0" prefHeight="29.0" prefWidth="185.0" text="Spruce Willis" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Gill Sans Ultra Bold Condensed" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
